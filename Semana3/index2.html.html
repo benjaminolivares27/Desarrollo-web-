@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 2 - Carga Dinámica desde API</title>
+</head>
+<body>
+
+    <h2>Práctica 2: Cargar Listado de Productos desde API simulada</h2>
+    
+    <div>
+        <select id="cmbArticulos" name="cmbArticulos">
+            <!-- Cargado automáticamente al cargar la página -->
+        </select>
+    </div> 
+
+    <!-- El script al final de la página para una óptima experiencia de usuario -->
+    <script>
+        // Simulación de los datos devueltos por una API (JSON)
+        const apiResponse = {
+            "status": 200,
+            "message": "Productos Obtenidos",
+            "data": [
+                {"id": "1", "nombre": "Mew ex"},
+                {"id": "2", "nombre": "Pikachu VMAX"}
+            ]
+        };
+
+        // Función que recorre la API y puebla el ComboBox dinámicamente
+        function poblarArticulos() {
+            let selector = document.getElementById("cmbArticulos");
+            
+            // Recorrido de los datos usando forEach y Funciones Flecha (ES6)
+            apiResponse.data.forEach((articulo) => {
+                // Creación de elemento option
+                let optElement = document.createElement("option");
+                
+                // Seteo de atributo value e innerText de la opción
+                optElement.setAttribute("value", articulo.id);
+                optElement.innerText = articulo.nombre;
+                
+                // Adición de la opción al elemento select principal
+                selector.appendChild(optElement);                    
+            });
+        }
+
+        // Llamamos a la función al cargar la página de forma segura
+        window.addEventListener("load", poblarArticulos);
+    </script>
+
+</body>
+</html>

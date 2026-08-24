@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 1 - Adición Dinámica de DOM</title>
+</head>
+<body>
+
+    <h2>Práctica 1: Agregar Cartas al Select en Tiempo Real</h2>
+    
+    <div>
+        <label for="txtCodigo">ID Carta:</label>
+        <input type="text" id="txtCodigo" placeholder="Ej: 1">
+        <br><br>
+        
+        <label for="txtNombreCarta">Nombre de Carta:</label>
+        <input type="text" id="txtNombreCarta" placeholder="Ej: Mew ex">
+        <br><br>
+        
+        <button id="btnRegistrar" onclick="registrarCarta();">Agregar Carta</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Listado de Cartas:</h3>
+        <select id="cmbColeccion" name="cmbColeccion">
+            <!-- Las opciones se inyectarán dinámicamente aquí -->
+        </select>
+    </div>
+
+    <!-- Regla de oro del profesor: El script al final para no retrasar la carga de la página -->
+    <script>
+        function registrarCarta() {
+            // 1. Obtener los elementos del DOM por su ID
+            let cmbColeccion = document.getElementById("cmbColeccion");
+            let txtCodigo = document.getElementById("txtCodigo");
+            let txtNombreCarta = document.getElementById("txtNombreCarta");
+            
+            // 2. Validar que los campos no estén vacíos
+            if (txtCodigo.value.trim() === "" || txtNombreCarta.value.trim() === "") {
+                alert("Por favor rellene ambos campos antes de agregar.");
+                return;
+            }
+            
+            // 3. Crear el nuevo elemento HTML 'option' de manera dinámica
+            let itemOption = document.createElement("option");
+            
+            // 4. Seteamos sus atributos y contenido usando ES6
+            itemOption.setAttribute("value", txtCodigo.value);
+            itemOption.innerText = txtNombreCarta.value;
+            
+            // 5. Insertar el elemento 'option' dentro del elemento 'select' (parent)
+            cmbColeccion.appendChild(itemOption);
+            
+            // 6. Limpiar los inputs para nuevas entradas
+            txtCodigo.value = "";
+            txtNombreCarta.value = "";
+        }
+    </script>
+
+</body>
+</html>
