@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="7UstzudadNQnVNalBN3N">
+    <mxGraphModel dx="1571" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-0xELh-_gmA0aVgpogjy-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="FRUTAS" vertex="1">
+          <mxGeometry height="300" width="300" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="VERDURAS" vertex="1">
+          <mxGeometry height="300" width="300" x="450" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Logo" vertex="1">
+          <mxGeometry height="80" width="80" x="50" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Buscar Productos" vertex="1">
+          <mxGeometry height="60" width="430" x="190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="🛒 Carrito (0)" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Soporte (whatsapp)" vertex="1">
+          <mxGeometry height="80" width="120" x="50" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Productos Destacados" vertex="1">
+          <mxGeometry height="60" width="510" x="150" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Imagen del producto&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(añadir al carrito)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-16" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=26;endSize=6;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="669.5" />
+            </Array>
+            <mxPoint x="710" y="669.5" as="sourcePoint" />
+            <mxPoint x="780" y="669.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Despachos" vertex="1">
+          <mxGeometry height="80" width="120" x="630" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Reseñas" vertex="1">
+          <mxGeometry height="80" width="120" x="335" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-20" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Imagen del producto&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(añadir al carrito)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="210" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-21" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Imagen del producto&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(añadir al carrito)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="380" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-0xELh-_gmA0aVgpogjy-22" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Imagen del producto&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(añadir al carrito)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="550" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
